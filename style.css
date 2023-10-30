@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,700;1,8..144,400&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background-color: #252525;
+  color: #ffffff;
+  display: flex;
+  font-family: "Roboto Serif", serif;
+  height: 9.1vh;
+  width: 100%;
+  justify-content: center;
+}
+
+.sectionDaHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 3.8rem;
+  margin-right: 3.8rem;
+}
+
+.divFantastika {
+  display: flex;
+  justify-content: space-between;
+  width: 12%;
+  align-items: center;
+}
+
+.divFantastika h2 {
+  font-size: 1.5rem;
+}
+
+.logoFantastika {
+  width: 2.3vw;
+  height: 4.9vh;
+}
+
+.divRedesSociais {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: right;
+}
+
+.logoRedesSociais {
+  margin-left: 1rem;
+}
+
+#instagram {
+  height: 3.6vh;
+  width: 1.7vw;
+}
+
+#youtube {
+  width: 2.5vw;
+  height: 3.6vh;
+}
+
+#whatsapp {
+  height: 3.6vh;
+  width: 1.7vw;
+}
+
+.sectionBackground {
+  height: 150vh;
+  background-image: url("./images/background.png");
+  background-size: 100% 150vh;
+  /* background-repeat: no-repeat; */
+  /* background-position: center center; */
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Serif", serif;
+  font-size: 2rem;
+}
+
+.divBoasVindas {
+  margin-top: 10rem;
+  width: 2vw;
+  height: 4.2vh;
+  text-align: center;
+  margin-bottom: 31rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  height: 20vh;
+  width: 31vw;
+}
+
+.logoCentral {
+  width: 11vw;
+  height: 23vh;
+  margin-top: 7rem;
+}
+
+.sectionDog1 {
+  background-image: url("./images/dog1.png");
+  background-size: 100% 150vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150vh;
+}
+
+.divBanhoETosa {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  justify-content: center;
+  color: #3a342f;
+  text-align: left;
+  width: 37vw;
+  align-items: left;
+  margin-left: 3.8rem;
+}
+
+.h2DasSections {
+  font-family: "Roboto Serif", serif;
+  font-size: 4rem;
+}
+
+.divBanhoETosa .pDasSections {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  width: 26.4vw;
+}
+
+.primeiroButton {
+  background-color: #3a342f;
+  border-radius: 2.75rem;
+  height: 11.3vh;
+  width: 16.6vw;
+  margin-top: 2.8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #f4f2f3;
+}
+
+.sectionDog2 {
+  background-image: url("./images/dog2.png");
+  background-size: 100% 150vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 150vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.divMordomiaSaudavel {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  justify-content: center;
+  color: #ffffff;
+  width: 27%;
+  margin-right: 3.8rem;
+}
+
+.divMordomiaSaudavel .h2DasSections {
+  width: 28.3vw;
+}
+
+.divMordomiaSaudavel .pDasSections {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+  width: 28.3vw;
+}
+
+.segundoButton {
+  background-color: #ffffff;
+  border: solid white;
+  border-radius: 2.75rem;
+  height: 11.3vh;
+  width: 16.6vw;
+  margin-top: 2.8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #000000;
+  /* margin-right: 11.5rem; */
+}
+
+.sectionApoios {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pDosApoios {
+  font-family: "Roboto Serif", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fd6a9a;
+  width: 38%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divApoios {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.logosApoio {
+  width: 11.6vw;
+  height: 3.6vh;
+}
+
+#americanas {
+  width: 10.5vw;
+  height: 2.8vh;
+  margin-right: 13rem;
+}
+
+footer {
+  display: flex;
+  height: 45.2vh;
+  align-items: center;
+  color: #ffffff;
+  background-color: #eb4a7b;
+}
+
+.sectionDoFooter {
+  display: flex;
+  margin-left: 7rem;
+}
+
+.divLogoFantastika {
+  display: none;
+}
+
+.divLogoRedesSociais {
+  display: none;
+}
+
+.divSobre {
+  margin-left: 6.7rem;
+}
+
+.divUnidades {
+  margin-left: 6.7rem;
+}
+
+.h3DoFooter {
+  font-family: "Roboto Serif", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 2rem;
+  height: 13.7vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 10.8vh;
+    width: 100%;
+  }
+  header h2 {
+    margin-left: 1rem;
+  }
+
+  .sectionDaHeader {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logoFantastika {
+    height: 7vh;
+    width: 10vw;
+  }
+
+  .divFantastika {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+  }
+
+  .divFantastika h2 {
+    margin-right: 4rem;
+    font-size: 1rem;
+  }
+
+  .divRedesSociais {
+    width: 20%;
+    margin-left: 3rem;
+  }
+
+  .logoRedesSociais {
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+  }
+
+  #instagram {
+    height: 0vh;
+    width: 0vw;
+  }
+
+  #youtube {
+    height: 0vh;
+    width: 0vw;
+  }
+
+  #whatsapp {
+    height: 6vh;
+    width: 8vw;
+  }
+
+  .sectionBackground {
+    height: 90vh;
+    background-size: 100% 90vh;
+    background-image: url("./images/mobile-background.png");
+  }
+
+  .divBoasVindas {
+    margin-top: 20rem;
+    width: 80vw;
+    height: 45vh;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    height: 18vh;
+    width: 79vw;
+    margin-top: 2rem;
+  }
+
+  .logoCentral {
+    width: 22vw;
+    height: 15vh;
+    margin-top: 0rem;
+  }
+
+  .sectionDog1 {
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-image: url("./images/mobile-dog1.png");
+  }
+
+  .divBanhoETosa {
+    width: 80%;
+    margin-left: 1rem;
+    height: 50vh;
+  }
+
+  .divBanhoETosa .h2DasSections {
+    font-size: 1.5rem;
+  }
+
+  .divBanhoETosa .pDasSections {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .primeiroButton {
+    width: 45vw;
+    height: 9vh;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  .sectionDog2 {
+    height: 100vh;
+    background-size: 100% 100vh;
+    background-image: url("./images/mobile-dog2.png");
+    align-items: flex-start;
+  }
+
+  .divMordomiaSaudavel {
+    width: 90%;
+    margin-left: 1rem;
+    height: 50vh;
+  }
+
+  .divMordomiaSaudavel .h2DasSections {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+
+  .divMordomiaSaudavel .pDasSections {
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .segundoButton {
+    width: 45vw;
+    height: 9vh;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  .sectionApoios {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .divApoios {
+    width: 80vw;
+    height: 5vh;
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+
+  .pDosApoios {
+    margin-left: 0rem;
+    justify-content: center;
+    font-size: 0.9rem;
+  }
+
+  #havaianas {
+    width: 35vw;
+    height: 3vh;
+  }
+
+  #americanas {
+    width: 35vw;
+    height: 3vh;
+    margin-right: 0rem;
+  }
+
+  footer {
+    height: 100vh;
+  }
+
+  .sectionDoFooter {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    margin-left: 0rem;
+  }
+
+  .divLogoFantastika {
+    display: initial;
+    width: 52vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .divLogoFantastika img {
+    width: 48vw;
+    height: 8vh;
+  }
+
+  .divLogoRedesSociais {
+    display: initial;
+    display: flex;
+    justify-content: space-between;
+    width: 36vw;
+    height: 4vh;
+  }
+
+  #mobileInstagram {
+    width: 6.5vw;
+    height: 4vh;
+  }
+
+  #mobileYoutube {
+    width: 6vh;
+    height: 4vh;
+  }
+
+  #mobileWhatsapp {
+    width: 6.5vw;
+    height: 4vh;
+  }
+
+  .divAtendimento {
+    width: 35vw;
+    height: 19vh;
+    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .divSobre {
+    margin-left: 0rem;
+    width: 40vw;
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .divUnidades {
+    margin-left: 0rem;
+    width: 35vw;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .h3DoFooter {
+    font-size: 1rem;
+  }
+
+  ul {
+    font-size: 1rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
