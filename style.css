@@ -70,8 +70,6 @@ header {
   height: 150vh;
   background-image: url("./images/background.png");
   background-size: 100% 150vh;
-  /* background-repeat: no-repeat; */
-  /* background-position: center center; */
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -105,10 +103,7 @@ h1 {
 
 .sectionDog1 {
   background-image: url("./images/dog1.png");
-  background-size: 100% 150vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 150vh;
+  background-size: 100% 150vh; 
 }
 
 .divBanhoETosa {
@@ -151,8 +146,6 @@ h1 {
 .sectionDog2 {
   background-image: url("./images/dog2.png");
   background-size: 100% 150vh;
-  background-repeat: no-repeat;
-  background-position: center center;
   height: 150vh;
   display: flex;
   justify-content: flex-end;
@@ -192,7 +185,6 @@ h1 {
   font-weight: 700;
   font-size: 1.6rem;
   color: #000000;
-  /* margin-right: 11.5rem; */
 }
 
 .sectionApoios {
