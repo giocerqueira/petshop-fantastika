@@ -31,13 +31,13 @@ header {
   align-items: center;
 }
 
-.divFantastika h2 {
-  font-size: 1.5rem;
-}
-
 .logoFantastika {
   width: 2.3vw;
   height: 4.9vh;
+}
+
+.divFantastika h2 {
+  font-size: 1.5rem;
 }
 
 .divRedesSociais {
@@ -286,16 +286,16 @@ ul {
     justify-content: space-between;
   }
 
-  .logoFantastika {
-    height: 7vh;
-    width: 10vw;
-  }
-
   .divFantastika {
     display: flex;
     justify-content: space-between;
     width: 50%;
     align-items: center;
+  }
+
+  .logoFantastika {
+    height: 7vh;
+    width: 10vw;
   }
 
   .divFantastika h2 {
@@ -424,19 +424,19 @@ ul {
     flex-direction: column;
   }
 
-  .divApoios {
-    width: 80vw;
-    height: 5vh;
-    font-size: 0.8rem;
-    justify-content: space-between;
-  }
-
   .pDosApoios {
     margin-left: 0rem;
     justify-content: center;
     font-size: 0.9rem;
   }
 
+  .divApoios {
+    width: 80vw;
+    height: 5vh;
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+  
   #havaianas {
     width: 35vw;
     height: 3vh;
