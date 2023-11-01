@@ -8,9 +8,7 @@
 
 header {
   background-color: #252525;
-  color: #ffffff;
   display: flex;
-  font-family: "Roboto Serif", serif;
   height: 9.1vh;
   width: 100%;
   justify-content: center;
@@ -37,7 +35,9 @@ header {
 }
 
 .divFantastika h2 {
+  font-family: "Roboto Serif", serif;
   font-size: 1.5rem;
+  color: #ffffff;
 }
 
 .divRedesSociais {
@@ -70,18 +70,14 @@ header {
   height: 150vh;
   background-image: url("./images/background.png");
   background-size: 100% 150vh;
-  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Roboto Serif", serif;
-  font-size: 2rem;
 }
 
 .divBoasVindas {
   margin-top: 10rem;
   width: 31vw;
-  text-align: center;
   margin-bottom: 31rem;
   display: flex;
   flex-direction: column;
@@ -90,6 +86,10 @@ header {
 }
 
 h1 {
+  font-family: "Roboto Serif", serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
   height: 20vh;
   width: 31vw;
 }
@@ -110,22 +110,23 @@ h1 {
   flex-direction: column;
   height: 150vh;
   justify-content: center;
-  color: #3a342f;
   text-align: left;
   width: 37vw;
   align-items: left;
   margin-left: 3.8rem;
 }
 
-.h2DasSections {
+.divBanhoETosa .h2DasSections {
   font-family: "Roboto Serif", serif;
   font-size: 4rem;
+  color: #3a342f;
 }
 
 .divBanhoETosa .pDasSections {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.7rem;
+  color: #3a342f;
   margin-top: 1rem;
   width: 26.4vw;
 }
@@ -156,12 +157,14 @@ h1 {
   flex-direction: column;
   height: 150vh;
   justify-content: center;
-  color: #ffffff;
   width: 27%;
   margin-right: 3.8rem;
 }
 
 .divMordomiaSaudavel .h2DasSections {
+  font-family: "Roboto Serif", serif;
+  font-size: 4rem;
+  color: #ffffff;
   width: 28.3vw;
 }
 
@@ -169,6 +172,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.7rem;
+  color: #ffffff;
   margin-top: 1rem;
   width: 28.3vw;
 }
